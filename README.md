@@ -1,12 +1,23 @@
-# Project: Bare metal Forms
+# Forms
+### A Rails project center around POST request and data storage to the Database's Tables
+#### Project 5
 
-This project is part of the Main Ruby on Rails curriculum at [Microverse](https://www.microverse.org/)
-* The goal was to understand how forms work on Ruby on Rails.
-* The project was completed using Ruby on Rails.
+## Getting Started
 
-#### [Assignment link](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)  
+To get started with the app, clone the repo and then install the needed gems:
 
-#### Authors
+```
+$ bundle install --without production
+```
 
-* [@FSolM](https://github.com/https://github.com/FSolM)
-* [@codingAngarita](https://github.com/codingAngarita)
+Run the app in a local server:
+
+```
+$ rails server
+```
+
+Check the routes.rb file to know the valid routes
+
+#### Created by:
+Carlos Sol: <a href="https://github.com/FSolM">@FSolM</a><br>
+Juan Escobar: <a href="https://github.com/codingAngarita">@codingAngarita</a>
