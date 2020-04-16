@@ -1,30 +1,59 @@
-# Forms with Rails
-### A Rails project center around POST request and data storage to the Database's Tables
-#### Project 5
+# Rails' Forms
 
-## Usage & Installation
+##### Project 5
 
-Install the necessary gems:
+#### A Rails project center in using its internal POST request for user inputs
+
+## About
+
+The gist of this project was the use of Rails' View Forms in the creation of user input forms. It handles the creation and update of an user, but it doesn't have a dedicated page for rendering the created users; use the Rails Console to see them.
+
+## Details
+
+This is an old project, and the gems used may not be up to date, run the
 
 ```
-$ bundle install --without production
+$ bundle update
 ```
 
-*The gems included in the project are no necessary up to date, be sure to update them before running the project to project it from vulnerabilities.*
+command to fix any version errors or fix them manually.
 
-Migrate the local database:
+## Installation
+
+If you want to see this project in action, clone the repository and install the bundled gems with
+
+```
+$ bundle install
+```
+
+Then, migrate the database with
 
 ```
 $ rails db:migrate
 ```
 
-Run Rails app locally:
+And finally, to run the app locally, use
 
 ```
 $ rails server
 ```
 
-#### Created by:
+To see the list of created users, enter Rails Console with the command
 
-Carlos Sol: [@FSolM](https://github.com/FSolM)<br>
+```
+$ rails console
+```
+
+## Known Issues
+
+There are currently no known issues with this project.
+
+## Planned Implementations
+
+None, the goal of this project was completed and it's not necessary to revisit it.
+
+## Contact
+
+Carlos Sol: [@FSolM](https://github.com/FSolM)
+
 Juan Escobar: [@codingAngarita](https://github.com/codingAngarita)
